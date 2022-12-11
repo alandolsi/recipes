@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:recipes/Resources/Private/Language/locallang_csh_tx_recipes_domain_model_recipe.xlf" date="2022-12-11T20:53:29Z" product-name="recipes">
+		<header/>
+		<body>
+			<trans-unit id="title.description" resname="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="image.description" resname="image.description">
+				<source>image</source>
+			</trans-unit>
+			<trans-unit id="instructions.description" resname="instructions.description">
+				<source>instructions</source>
+			</trans-unit>
+			<trans-unit id="demo.description" resname="demo.description">
+				<source>demo</source>
+			</trans-unit>
+			<trans-unit id="ingredients.description" resname="ingredients.description">
+				<source>ingredients</source>
+			</trans-unit>
+			<trans-unit id="categories.description" resname="categories.description">
+				<source>categories</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

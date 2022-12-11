@@ -1,0 +1,11 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<div class="col-12 mb-3" >
+	<f:image src="{recipe.image.originalResource.publicUrl}" class="img-thumbnail"/>
+</div>
+<div class="mb-3" ><f:format.html>{recipe.instructions}</f:format.html></div>
+<div class="youtube-container">
+	<f:comment>
+	<iframe width="420" height="345" src="{recipe.demo}"></iframe>
+	</f:comment>
+</div>
+</html>

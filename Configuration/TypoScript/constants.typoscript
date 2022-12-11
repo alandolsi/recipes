@@ -1,0 +1,14 @@
+plugin.tx_recipes_recipe {
+    view {
+        # cat=plugin.tx_recipes_recipe/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:recipes/Resources/Private/Templates/
+        # cat=plugin.tx_recipes_recipe/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:recipes/Resources/Private/Partials/
+        # cat=plugin.tx_recipes_recipe/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:recipes/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_recipes_recipe//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:recipes/Resources/Private/Language/locallang.xlf" date="2022-12-11T20:53:29Z" product-name="recipes">
+		<header/>
+		<body>
+			<trans-unit id="tx_recipes_domain_model_recipe" resname="tx_recipes_domain_model_recipe">
+				<source>Recipe</source>
+			</trans-unit>
+			<trans-unit id="tx_recipes_domain_model_recipe.title" resname="tx_recipes_domain_model_recipe.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_recipes_domain_model_recipe.image" resname="tx_recipes_domain_model_recipe.image">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="tx_recipes_domain_model_recipe.instructions" resname="tx_recipes_domain_model_recipe.instructions">
+				<source>Instructions</source>
+			</trans-unit>
+			<trans-unit id="tx_recipes_domain_model_recipe.demo" resname="tx_recipes_domain_model_recipe.demo">
+				<source>Demo</source>
+			</trans-unit>
+			<trans-unit id="tx_recipes_domain_model_recipe.ingredients" resname="tx_recipes_domain_model_recipe.ingredients">
+				<source>Ingredients</source>
+			</trans-unit>
+			<trans-unit id="tx_recipes_domain_model_recipe.categories" resname="tx_recipes_domain_model_recipe.categories">
+				<source>Categories</source>
+			</trans-unit>
+			<trans-unit id="tx_recipes_domain_model_ingredient" resname="tx_recipes_domain_model_ingredient">
+				<source>Ingredient</source>
+			</trans-unit>
+			<trans-unit id="tx_recipes_domain_model_ingredient.name" resname="tx_recipes_domain_model_ingredient.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_recipes_domain_model_ingredient.unit" resname="tx_recipes_domain_model_ingredient.unit">
+				<source>Unit</source>
+			</trans-unit>
+			<trans-unit id="tx_recipes_domain_model_ingredient.image" resname="tx_recipes_domain_model_ingredient.image">
+				<source>Image</source>
+			</trans-unit>
+			<trans-unit id="tx_recipes_domain_model_category" resname="tx_recipes_domain_model_category">
+				<source>Category</source>
+			</trans-unit>
+			<trans-unit id="tx_recipes_domain_model_category.title" resname="tx_recipes_domain_model_category.title">
+				<source>Title</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

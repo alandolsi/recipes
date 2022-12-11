@@ -1,0 +1,31 @@
+plugin.tx_recipes_recipe {
+    view {
+        templateRootPaths.0 = EXT:recipes/Resources/Private/Templates/
+        templateRootPaths.1 = {$plugin.tx_recipes_recipe.view.templateRootPath}
+        partialRootPaths.0 = EXT:recipes/Resources/Private/Partials/
+        partialRootPaths.1 = {$plugin.tx_recipes_recipe.view.partialRootPath}
+        layoutRootPaths.0 = EXT:recipes/Resources/Private/Layouts/
+        layoutRootPaths.1 = {$plugin.tx_recipes_recipe.view.layoutRootPath}
+    }
+    persistence {
+        storagePid = {$plugin.tx_recipes_recipe.persistence.storagePid}
+        #recursive = 1
+    }
+    features {
+        #skipDefaultArguments = 1
+        # if set to 1, the enable fields are ignored in BE context
+        ignoreAllEnableFieldsInBe = 0
+    }
+    mvc {
+        #callDefaultActionIfActionCantBeResolved = 1
+    }
+}
+
+page {
+    includeCSS {
+        dataTables = EXT:recipes/Resources/Public/Css/jquery.dataTables.min.css
+    }
+    includeJSFooter {
+        dataTables = EXT:recipes/Resources/Public/Js/jquery.dataTables.min.js
+    }
+}
